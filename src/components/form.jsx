@@ -60,7 +60,7 @@ const Form = () => {
             region : formData.region
         }
         console.log(data)
-        const res = await axios.post('https://mindmesh-flask-api.onrender.com/api',data);
+        const res = await axios.post('https://new-lrqa.onrender.com',data);
         setreceivedData(res.data);
         setLoading(false)
         console.log(res)
